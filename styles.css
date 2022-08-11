@@ -1,0 +1,127 @@
+body {
+    background-color: aliceblue;
+    color: #2a2929;
+    }    
+.myDiv {
+    border: 6px outset blue;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+.prde {
+    width: 1000px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    padding: 20px;
+}
+.ad:hover {
+    color: red;
+}
+.para {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+    padding: 10px;
+}
+.nxt {
+ color: #2a2929;
+ padding: 100px;
+}
+.fb {
+    width: 50px;
+    height:30px;
+    float: right;
+}
+.inst {
+    width: 50px;
+    height: 30px;
+    float: right;
+}
+.tele {
+    width: 50px;
+    height: 30px;
+    float: right;
+}
+.twit {
+    width: 50px;
+    height: 30px;
+    float: right;
+}
+.git {
+    width: 50px;
+    height: 30px;
+    float: right;
+}
+.goo {
+    width: 50px;
+    height: 30px;
+    float: right;
+}
+/* Navbar container*/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial;
+}
+/* link inside the Navbar container*/
+.navbar a {
+float: left;
+font-size: 16px;
+color: aliceblue;
+text-align: center;
+padding: 8px 10px;
+text-decoration: none; 
+}
+/* Dropdown container*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+/* Dropdown button*/
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 8px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/* Add red bgcolor to navbar links on hover*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px opx rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown*/
+.dropdown-content a {
+    float: none;
+    color: #333;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 8px 10px;
+}
+/* Add bgcolor to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+/* Show dropdown menu on hover*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Adding copyright*/
+.date {
+    text-align: center;
+}
