@@ -42,8 +42,29 @@ color: #2a2929;
     border-color: darkgray;
     height: 25px;
     box-shadow: none;
+    
 }
 
-
-
+.bodbg {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        darkgray 0%,
+        darkgray 50%,
+        dimgray 50%,
+        dimgray 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgs {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #333;
+    
+}
 
