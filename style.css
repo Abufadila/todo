@@ -45,26 +45,61 @@ color: #2a2929;
     
 }
 
-.bodbg {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(
-        to bottom,
-        darkgray 0%,
-        darkgray 50%,
-        dimgray 50%,
-        dimgray 100%
-    );
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imgs {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid #333;
-    
-}
+.mixcol {
+    margin: 0px;
+  }  
+  .cont{
+    height: 100%;
+    width: 100%;  
+  }
+  .top-bg {
+    background-color: lightgrey;
+    padding-top: 30px;
+    height: 350px;
+  }
 
+  .tax {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -350px;
+  }
+  .pix {
+    height: 390px;
+    width:  390px;
+    border-radius: 50%;
+    margin: auto;
+    border: solid;
+    border-color: antiquewhite;
+    border-width: 4px;
+  }
+  .potlio {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(20, 27, 29);
+  }
+  .btn-bg {
+    background-color: darkgrey;
+  }
+  .pp {
+    color: rgb(30, 39, 47);
+    text-align: justify;
+  }
+ 
+.fb {
+    width: 50px;
+    height:30px;
+}
+.inst {
+    width: 50px;
+    height: 30px;
+}
+.tele {
+    width: 50px;
+    height: 30px;
+}
+.git {
+    width: 50px;
+    height: 30px;
+}
